@@ -14,9 +14,12 @@
     <header>
       <%= render 'layouts/nav' %>
     </header>
+
     <div class="container">
+      <%= render 'layouts/msg'%>
       <div class="row">
         <div class="col-lg-9">
+
           <%= yield %>
         </div>
       </div>
